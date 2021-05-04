@@ -6,7 +6,7 @@ from selenium import webdriver
 baslik = input("Ekşi sözlükte aramak istediğiniz başlığı girin: ")
 
 options = webdriver.ChromeOptions()
-options.add_argument('headless')
+options.add_argument('headless') #chrome sekmesini arkaplana atıyoruz.
 
 url = "https://eksisozluk.com/"
 
